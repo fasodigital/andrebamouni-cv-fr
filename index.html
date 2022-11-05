@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>André CV</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Andre - Resume / CV " />
+    <!-- <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" /> -->
+    <meta name="keywords" content="Conciliation-bancaire, Evaluation-de-projets, Exploitation-de-données, Gestion-de-produit, Analyse-opérationnelle, Planification-économique" />
+    <meta name="author" content="bamouni" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+     
+    <!-- Bootstrap Icon -->
+     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" />
+
+     <!-- Fontawesone -->
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+     <!-- Favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="static/styles.css">
+
+
+</head>
+<body >
+    <!-- style="background: url('images/testimonials-bg.png') no-repeat center center / cover;" -->
+
+    <div class="resume__body my-lg-4 "  >
+        <div class="container resume__container py-lg-3 px-lg-5" >
+            <!-- NavBar -->
+            <nav class="navbar navbar-expand-lg mb-5 "  >
+                <div class="container-fluid ">
+                  <a class="navbar-brand" href="#"> 
+                    <span class="badge rounded-pill bg-primary  fs-4 py-2 px-3">A</span>
+                    <span style="font-weight:600;" class="title__color"> André</span>
+
+                      CV
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav  ms-auto" >
+                      <li class="nav-item ms-lg-1">
+                        <a class="nav-link " aria-current="page" href="#competences">Compétences </a>
+                      </li>
+                      <li class="nav-item ms-lg-1" >
+                        <a class="nav-link"  href="#experiences">Expériences</a>
+                      </li>
+                      <li class="nav-item ms-lg-1">
+                        <a class="nav-link" href="#cursus-scolaire"> Cursus Scolaire</a>
+                      </li>
+                      <li class="nav-item ms-lg-1">
+                        <a class="nav-link" href="#references">References</a>
+                      </li>
+                      <li class="nav-item ms-lg-1">
+                        <a href="#contact" class="nav-link">Contact</a>
+                      </li>
+                      <li class="nav-item ms-lg-3">
+                        <span class="nav-link " id="toggle__theme">
+                            <i class="bi bi-brightness-high"></i> 
+                            
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+
+            <section id="synthèse" class="mb-5">
+                <div class="row m-0">
+                    <div class="col-lg-5">
+                        <div class="mb-3 d-flex justify-content-center">
+                            <div id="send__email">
+                                <!-- Button trigger modal -->
+                                <span class="btn btn-sm btn-primary border-2 custom__btn mx-2 px-3" data-bs-toggle="modal" data-bs-target="#envoyerEmail">
+                                        Embaucher 
+                                </span>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="envoyerEmail" tabindex="-1" aria-labelledby="envoyerEmailLabel" aria-hidden="true">
+                                    <div class="modal-dialog  modal-dialog-scrollable modal-lg">
+                                    <div class="modal-content dark" style="color: #142136">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="envoyerEmailLabel">Contatez Moi</h5>
+                                        
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="https://formspree.io/f/mqkjaowp" method="POST">
+
+                                                <div class="row g-2 mb-3">
+                                                    <div class="col-md">
+                                                        <div class="form-floating">
+                                                        <input type="text" class="form-control" id="Nom" placeholder="Nom" name="Nom" required>
+                                                        <label for="Nom">Votre Nom <code>*</code></label>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="col-md">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control" id="Prenom" placeholder="Prenom" name="Prenom" required>
+                                                            <label for="Prenom">Votre Prenom <code>*</code></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="row g-2 mb-3">
+                                                    <div class="col-md">
+                                                        <div class="form-floating">
+                                                        <select class="form-select" id="motif" name="Motif" required>
+                                                            <option selected>Entretien d'embauche</option>
+                                                            <option value="1">Travailler sur un project</option>
+                                                            <option value="2"> Consulter </option>
+                                                            <option value="3">Autre</option>
+                                                        </select>
+                                                        <label for="motif">Selectionez le Motif</label>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="col-md">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="telephone" placeholder="Telephone" name="Telephone">
+                                                            <label for="telephone">Votre Tel <code></code></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                
+                                                <div class="form-floating mb-3">
+                                                    <input type="email" class="form-control" id="email" placeholder="Votre email" name="Email" required>
+                                                    <label for="email">Votre Address Mail <code>*</code></label>
+                                                </div>
+                
+                
+                                                <div class="form-floating mb-3">
+                                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="Message" required></textarea>
+                                                    <label for="floatingTextarea2">Message <code>*</code></label>
+                                                </div>
+                                                <div>
+                                                    <button type="submit" class="btn btn-primary w-100 custom__btn" > Envoyer </button>
+                                                </div>
+                
+                                            </form>
+                                        </div>
+                                        
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="downlaod__cv">
+                                <a href="documents/Andre-CV.pdf" download class="btn btn-sm btn-outline-primary custom__btn mx-2 px-3"> Télécharger CV</a> 
+                            </div>
+                        </div>
+
+                        <div class="text-center mb-2">
+                            <img class="profile__img" src="images/profile.png" alt="profile-img" >
+                        </div>
+                       
+                        <div class="text-center fs-5" style="opacity: 0.8;">
+                            
+                            <span class="px-2">
+                                <a href="tel:+22676724842"><i class="bi bi-phone-fill"></i></a>
+                            </span>
+                            <span class="px-2">
+                                <a href="https://wa.me/22676724842?text=Bonjour%20Mr%20Bamouni,%20Je%20viens%20de%20visiter%20votre%20résumé!" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                            </span>
+
+                            <span class="px-2">
+                                <a href="https://www.facebook.com/paul.baba.169" target="_blank"><i class="bi bi-facebook"></i></a>
+                            </span>
+                            
+                            <span class="px-2">
+                                <a href="https://www.linkedin.com/in/andr%C3%A9-bamouni-080b0b238" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            </span>
+                            <span class="px-2">
+                                <a href="mailto:bamouni160@yahoo.fr?subject=Questions&body=Bonjour Mr BAMOUNI, j'ai une question: [...VOTRE QUESTION...]">
+                                    <i class="bi bi-envelope"></i> 
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-lg-7 profile__description">
+                        <p class="card-subtitle mb-2 ">Banquier à  UBA</p>
+                        <h3 class="card-text my-3 title__color">André BAMOUNI</h3>
+                        <div style="text-align: justify">
+                            Titulaire d’une Maîtrise en Science Economique et Gestion, 
+                            option Macro-économie et Gestion du Développement, 
+                            motivé, disposant d’une solide capacité à travailler en équipe et à prendre part à des projets multitâches dans des délais serrés. 
+                            Enthousiaste et dévoué au travail, doté d’une grande intégrité, 
+                            d’une solide éthique professionnelle et d’excellentes qualités de leadership. 
+                            Désireux d’améliorer les résultats et de dépasser les objectifs.
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="competences" class="pt-3 mb-5">
+                <div class="row m-0">
+                    <h3 class="mb-4 title__color">Mes Compétences</h3>
+
+                    <div class="col-lg-6 d-flex mb-4"> 
+                        <div>
+                            <span class="fs-4 me-3 text-primary"><i class="bi bi-bank"></i></span>
+                        </div>
+                        <div class="pt-2 pe-lg-3">
+                            <h6 class="title__color">Conciliation bancaire</h6>
+                            <small>
+                                    Faire état de la concordance entre le solde du compte bancaire présenté dans la comptabilité à un instant « t » avec le relevé délivré périodiquement par la banque;
+                                    Contrôle des mouvements inscrits dans les livres de l'entreprise.
+                            </small>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-6 d-flex mb-4"> 
+                        <div>
+                            <span class="fs-4 me-3 text-primary"><i class="bi bi-pen"></i></span>
+                        </div>
+                        <div class="pt-2 pe-lg-3">
+                            <h6 class="title__color">Evaluation de projets</h6>
+                            <small> 
+                                    Juger/apprécier un projet en cours ou achevé, y compris sa conception, sa mise en œuvre et ses résultats. 
+                            </small>
+                        </div>                        
+                    </div>
+
+                    <div class="col-lg-6 d-flex mb-4"> 
+                        <div>
+                            <span class="fs-4 me-3 text-primary"><i class="bi bi-graph-down-arrow"></i></span>
+                        </div>
+                        <div class="pt-2 pe-lg-3">
+                            <h6 class="title__color">Exploitation de données</h6>
+                            <small>
+                                    Explorer des données en contexte décisionnel.
+                            </small>
+                        </div>                        
+                    </div>
+
+                    <div class="col-lg-6 d-flex mb-4"> 
+                        <div>
+                            <span class="fs-4 me-3 text-primary"><i class="bi bi-projector"></i></span>
+                        </div>
+                        <div class="pt-2 pe-lg-3">
+                            <h6 class="title__color">Gestion de produit</h6>
+                            <small>
+                                    Mener une fonction organisationnelle qui guide chaque étape du cycle de vie d'un produit – Relation produits-clients
+                            </small>
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6 d-flex mb-4"> 
+                        <div>
+                            <span class="fs-4 me-3 text-primary"><i class="bi bi-bar-chart-steps"></i></span>
+                        </div>
+                        <div class="pt-2 pe-lg-3">
+                            <h6 class="title__color">Analyse opérationnelle</h6>
+                            <small>
+                                 Préparer un calendrier d'exécution de projets, et pour la durée des activités que pour l'usage des ressources.
+                            </small>
+                        </div>    
+                    </div>
+                    <div class="col-lg-6 d-flex mb-4"> 
+                        <div>
+                            <span class="fs-4 me-3 text-primary"><i class="bi bi-kanban"></i></span>
+                        </div>
+                        <div class="pt-2 pe-lg-3">
+                            <h6 class="title__color">Planification économique</h6>
+                            <small>
+                                Organiser un programme économique avec des objectifs et des moyens à moyen et long terme.
+                            </small>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <section id="section__3" class="pt-3 ">
+                <div class="row m-0">
+                    <div class="col-lg-6 mb-4" id="experiences"> 
+                        <h3 class="title__color mb-3">Experiences</h3>
+
+                        <!-- Caissier a UBA Agence Principale -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2021-Actuellement</small> <small class="title__company__school">UBA agence Principale Bobo, Burkina</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Caissier </h6>
+                                <div>
+                                    
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>  Tenue de la caisse principale
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>  Opérations de caisse (Encaissements et Décaissements de fonds)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>  Achats et Ventes de devises (EUR, CHF, GBP, CAD, USD)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>  Vente de produits de la banque (Africards, ouverture de comptes, Western Union, Money Gram, Wari, AfriCash, Africard, Ria, U- connect …)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Opérations de transferts (T/CI, T/BI)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Approvisionnement GAB
+                                    </small>
+
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#caissierUBAAgencePrincipale2ndTime">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="caissierUBAAgencePrincipale2ndTime" tabindex="-1" aria-labelledby="caissierUBAAgencePrincipale2ndTimeLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="caissierUBAAgencePrincipale2ndTimeLabel">Caissier à UBA</h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Juin 2021- Maintenant~ 1an </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> <a href="https://www.ubaburkinafaso.com/" target="_blank">UBA Agence Principale </a></span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i>Bobo-Dioulasso, Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Tenue de la caisse principale
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Opérations de caisse (Encaissements et Décaissements de fonds)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Achats et Ventes de devises (EUR, CHF, GBP, CAD, USD)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Vente de produits de la banque (Africards, ouverture de comptes, Western Union, Money Gram, Wari, AfriCash, Africard, Ria, U- connect …)
+                                                </small>
+
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Opérations de transferts (T/CI, T/BI)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Approvisionnement GAB
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">
+                                                    Réalisations/accomplishments
+                                                </div>
+                      
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Satisfaction des clients
+                                                </small>
+
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Caissier a UBA  Agence Hamdallaye-->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2018-2021</small> <small class="title__company__school">UBA agence Hamdallaye Bobo, Burkina</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Caissier </h6>
+                                <div>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Tenue de la caisse principale
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Opérations de caisse (Encaissements et Décaissements de fonds)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Achats et Ventes de devises (EUR, CHF, GBP, CAD, USD)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Vente de produits de la banque (Africards, ouverture de comptes, Western Union, Money Gram, Wari, AfriCash, Africard, Ria, …)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Opérations de transferts (T/CI, T/BI)
+                                    </small>
+
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#caissierUBAAgenceHamdallaye">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="caissierUBAAgenceHamdallaye" tabindex="-1" aria-labelledby="caissierUBAAgenceHamdallayeLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="caissierUBAAgenceHamdallayeLabel">Caissier à UBA</h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Février 2018 - Juin 2021 ~ 3ans </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> <a href="https://www.ubaburkinafaso.com/" target="_blank">UBA Agence Hamdallaye</a></span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i>Bobo-Dioulasso, Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Tenue de la caisse principale
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Opérations de caisse (Encaissements et Décaissements de fonds)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Achats et Ventes de devises (EUR, CHF, GBP, CAD, USD)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Vente de produits de la banque (Africards, ouverture de comptes, Western Union, Money Gram, Wari, AfriCash, Africard, Ria, …)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Opérations de transferts (T/CI, T/BI)
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Réalisations/accomplishments
+                                                    </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Satisfaction de la clientelle
+                                                </small>
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Caissier a UBA Agence Principale -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2015-2018</small> <small class="title__company__school">UBA agence Principale Bobo, Burkina</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Caissier </h6>
+                                <div>
+                                    
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Opérations de caisse (Encaissements et Décaissements de fonds)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Achats et Ventes de devises (EUR, CHF, GBP, CAD, USD)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Vente de produits de la banque (Africards, ouverture de comptes, Western Union, Money Gram, Wari, AfriCash, Africard, Ria, …)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Opérations de transferts (T/CI, T/BI)
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Approvisionnement GAB
+                                    </small>
+
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#caissierUBAAgencePrincipale">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="caissierUBAAgencePrincipale" tabindex="-1" aria-labelledby="caissierUBAAgencePrincipaleLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="caissierUBAAgencePrincipaleLabel">Caissier à UBA</h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> November 2015- Fevrier 2018 ~ 3ans </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> <a href="https://www.ubaburkinafaso.com/" target="_blank">UBA Agence Principale </a></span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i>Bobo-Dioulasso, Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Opérations de caisse (Encaissements et Décaissements de fonds)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Achats et Ventes de devises (EUR, CHF, GBP, CAD, USD)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Vente de produits de la banque (Africards, ouverture de comptes, Western Union, Money Gram, Wari, AfriCash, Africard, Ria, …)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Opérations de transferts (T/CI, T/BI)
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Approvisionnement GAB
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">
+                                                    Réalisations/accomplishments
+                                                </div>
+                      
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Satisfaction des clients
+                                                </small>
+
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Statisticien a CBPCA -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2014-2015</small> <small class="title__company__school">CBPCA Sarl Ouaga, Burkina</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Statisticien </h6>
+                                <div>
+                                    
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Gestion électronique des stocks
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Tenue de la petite comptabilité
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Gestion des commandes électroniques et physiques
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Gestion de données et leurs archivages.
+                                    </small>
+
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#statisticienCBPCA">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="statisticienCBPCA" tabindex="-1" aria-labelledby="statisticienCBPCALabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="statisticienCBPCALabel">Statisticien à CBPCA Sarl  </h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Juin 2014- November 2015 ~ 1,5ans </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> Central Burkinabé des Viandes et produit Carnés (CBPCA Sarl)</span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i> Ouaga, Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Gestion électronique des stocks,
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Tenue de la petite comptabilité,
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Gestion des commandes électroniques et physiques.
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Gestion de données et leurs archivages.
+                                                </small>
+                                                
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">
+                                                    Réalisations/accomplishments
+                                                </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Optimisation de la production
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Réduction des coûts de production
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Réduction des délais de livraisons
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Satisfaction des clients
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Augmentation des ventes
+                                                </small>
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Enrolement Biometrique#1 -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2014-2014</small> <small class="title__company__school">Commission Electorale National Indépendante (CENI)</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Opérateur de Kits (Enrôlement biométrique) </h6>
+                                <div>
+                                    
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> La Saisie des données démographiques
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> La capture des données biométriques des électeurs
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> L’enregistrement des données collectées et les tâches entrant dans le cadre de la mise à jour du fichier électoral biométrique
+                                    </small>
+                                
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#enrolementBiometriqueActe1">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="enrolementBiometriqueActe1" tabindex="-1" aria-labelledby="enrolementBiometriqueActe1Label" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="enrolementBiometriqueActe1Label">Opérateur de Kits  à  la CENI </h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Mai 2014- Juin 2014 ~ 1mois </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> Commission Electorale National Indépendante (CENI)</span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i> Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    La Saisie des données démographiques
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    La capture des données biométriques des électeurs
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    L’enregistrement des données collectées et les tâches entrant dans le cadre de la mise à jour du fichier électoral biométrique
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">
+                                                    Réalisations/accomplishments
+                                                </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Acquisition de plus d’expérience
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Mission Bien Accomplie + Attestation
+                                                </small>
+                                                
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Statisticien Stagiaire a CBPCA -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2014-2014</small> <small class="title__company__school">CBPCA Sarl Ouaga, Burkina</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Statisticien </h6>
+                                <div>
+                                    
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Gestion électronique des stocks
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Tenue de la petite comptabilité
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Gestion des commandes électroniques et physiques
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>Organisation de données : Classer, enregistré et synthétisé les données numériques et financières pour compiler et conserver les archives financières.
+                                    </small>
+
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#statisticienCBPCAStagiaire">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="statisticienCBPCAStagiaire" tabindex="-1" aria-labelledby="statisticienCBPCAStagiaireLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="statisticienCBPCAStagiaireLabel">Statisticien à CBPCA Sarl  </h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Janvier 2014- Mai 2015 ~ 6mois </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> Central Burkinabé des Viandes et produit Carnés (CBPCA Sarl)</span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i> Ouaga, Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Gestion électronique des stocks,
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Tenue de la petite comptabilité,
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Gestion des commandes électroniques et physiques.
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Organisation de données : Classer, enregistré et synthétisé les données numériques et financières pour compiler et conserver les archives financières.
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">
+                                                    Réalisations/accomplishments
+                                                </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Traitement plus rapide des commandes des clients, maîtrise des quantités produites et stockées, satisfaction des clients et du personnel
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Amélioration des processus : Atteinte de l’objectif en matière de génération de revenus, via la mise en œuvre de mesures de réduction des coûts de l’Entreprise.
+                                                </small>
+                                                
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stagiaire a UBA -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2013-2013</small> <small class="title__company__school">United Bank for Africa(UBA), Burkina</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Stagiaire </h6>
+                                <div>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Service Traitement de chèques 
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Service de la Compensation 
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Services du Loan / Crédit 
+                                    </small>
+
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#stagiaireUBAOuaga">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="stagiaireUBAOuaga" tabindex="-1" aria-labelledby="stagiaireUBAOuagaLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="stagiaireUBAOuagaLabel">Stagiaire à UBA</h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Février 2013 - Août 2013 ~ 6mois </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> <a href="https://www.ubaburkinafaso.com/" target="_blank">UBA</a></span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i>Ouaga, Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Service Traitement de chèques : Scannage et saisie de chèques.
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Service de la Compensation : Travail de Rapprochement pour les produits Western Union.
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Services du Loan / Crédit : Tenue de registre des dossiers de prêts – Montage de fiches technique à joindre aux dossiers de prêts – Scanage ou Numérisation des dossiers de prêts et leur transfèrent au GSSC (Global Shared Services Center) via le réseau de la banque – Transmission desdits dossiers au service du contrôle et autres services après la mise en place du prêt.
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Réalisations/accomplishments
+                                                    </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Mission Bien Accomplie + Attestation
+                                                </small>
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Agent enquêteur a  SAFRIC-->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2012-2012</small> <small class="title__company__school">Société Africaine d’Ingénierie et de Conseil (SAFRIC)</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Agent enquêteur </h6>
+                                <div>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> Collecte de Données auprès des ménages 
+                                    </small>
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#agentEnqueteurSAFRIC">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="agentEnqueteurSAFRIC" tabindex="-1" aria-labelledby="agentEnqueteurSAFRICLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="agentEnqueteurSAFRICLabel">Agent enquêteur à SAFRIC</h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Décembre  2012 - Décembre  2012 ~ 1mois </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> Société Africaine d’Ingénierie et de Conseil (SAFRIC)</span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i> Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Collecte de Données auprès des ménages des localités de Zorgho, Tenkodogo, Ouargaye, Bittou et Garango sur les types de foyers utilisés pour la cuisine. Notamment les foyers améliorés dans le cadre de l’élaboration par le Ministère des Mines des Carrières et de l’Energie, d’une politique nationale visant une exploitation rationnelle des sources d’énergie et la préservation de l’environnement.
+                                                </small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Réalisations/accomplishments
+                                                    </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Bonne Mention du bureau d’étude (SAFRIC)
+                                                </small>
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <!-- Agent Formateur des administateurs electoraux -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2012-2012</small> <small class="title__company__school">Programme des Nations Unis pour le Développement (PNUD)</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Agent Formateur des administrateurs électoraux </h6>
+                                <div>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>Traiter de la question des missions et des objectifs de la CENI
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>Traiter de la question de la loi électorale
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i>Traiter de la question de la procédure du votre
+                                    </small>
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#agentFormateurPNUD">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="agentFormateurPNUD" tabindex="-1" aria-labelledby="agentFormateurPNUDLabel" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="agentFormateurPNUDLabel">Agent Formateur des administrateurs électoraux au PNUD</h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Novembre   2012 - Décembre  2012 ~ 1mois </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> Programme des Nations Unis pour le Développement (PNUD)</span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i> Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                        Traiter de la question des missions et des objectifs de la CENI
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                        Traiter de la question de la loi électorale,
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                        Traiter de la question de la procédure du votre.
+                                                </small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Réalisations/accomplishments
+                                                    </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Bonne communication. Satisfaction de 99% des participants
+                                                </small>
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Enrolement Biometrique#2 -->
+                        <div>
+                            <small class="badge rounded-pill text-bg-primary  opacity-75">2012-2012</small> <small class="title__company__school">Commission Electorale National Indépendante (CENI)</small>
+
+                            <div class="ms-lg-4 border-2 ps-3 pt-2 border-start">
+                                <h6 class="title__color">Opérateur de Kits (Enrôlement biométrique) </h6>
+                                <div>
+                                    
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> La Saisie des données démographiques
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> La capture des données biométriques des électeurs
+                                    </small>
+                                    <small class="d-block" m-0>
+                                        <i class="bi bi-check2-circle"></i> L’enregistrement des données collectées et les tâches entrant dans le cadre de la mise à jour du fichier électoral biométrique
+                                    </small>
+                                
+                                </div>
+                                <div class="py-3">
+                                    <!-- Button trigger modal -->
+                                    <span class="btn btn-outline-primary btn-sm custom__btn px-4" data-bs-toggle="modal" data-bs-target="#enrolementBiometriqueActe2">
+                                        <i class="bi bi-book-half"></i> &nbsp&nbspLire la suite ...
+                                    </span>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="enrolementBiometriqueActe2" tabindex="-1" aria-labelledby="enrolementBiometriqueActe2Label" aria-hidden="true">
+                                        <div class="modal-dialog  modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content dark" style="color: #142136">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="enrolementBiometriqueActe2Label">Opérateur de Kits  à  la CENI </h5>
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            
+                                            <div class="modal-body ">
+                                                <div class="mb-2">
+                                                    <span > <i class="bi bi-clock-history"></i> Juin 2014-  Août 2014 ~ 3mois </span> 
+                                                    <span class="ms-3"> <i class="bi bi-building"></i> Commission Electorale National Indépendante (CENI)</span> 
+                                                    <span class="ms-3"> <i class="bi bi-geo"></i> Burkina </span> 
+
+                                                </div>
+
+                                                <div class="modal-title font-weight-bold" style="color:#333;">Tâches  </div>
+                                                
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    La Saisie des données démographiques
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    La capture des données biométriques des électeurs
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    L’enregistrement des données collectées et les tâches entrant dans le cadre de la mise à jour du fichier électoral biométrique
+                                                </small>
+                                               
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modal-title font-weight-bold" style="color:#333;">
+                                                    Réalisations/accomplishments
+                                                </div>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Servir une cause National
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Acquisition de plus d’expérience
+                                                </small>
+                                                <small class="d-block"> 
+                                                    <span class="text-success"><i class="bi bi-check-circle"></i></span> 
+                                                    Mission Bien Accomplie + Attestation
+                                                </small>
+                                                
+                                                
+                                                
+                                            </div>
+                                            <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary btn-sm w-100" data-bs-dismiss="modal">Fermer</button>
+                                           
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+  
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6" > 
+                        <h3 class="title__color mb-3" id="cursus-scolaire">Cursus Scolaire</h3>
+
+                       <div class="mb-5">
+                            <!-- Maitrise 2011 -->
+                            <div>
+                                <small class="badge rounded-pill text-bg-primary  opacity-75">2011</small> <small class="title__company__school">Université de Ouaga II, Burkina</small>
+
+                                <div class="ms-lg-4 border-2 ps-3 pt-2 pb-3 border-start border-bottom" style="border-bottom-left-radius: 0.5rem ;">
+                                    <h6 class="title__color">Maitrise </h6>
+                                    <div>
+                                        
+                                        <small class="d-block" m-0>
+                                            Option : Macro-économie et Gestion du Développement
+                                        </small>
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+
+                            <!-- Licence 2010 -->
+                            <div >
+                                <small class="badge rounded-pill text-bg-primary  opacity-75">2010</small> <small class="title__company__school">Université de Ouaga II, Burkina</small>
+
+                                <div class="ms-lg-4 border-2 ps-3 pt-2 pb-3 border-start border-bottom" style="border-bottom-left-radius: 0.5rem ;">
+                                    <h6 class="title__color">Licence </h6>
+                                    <div>
+                                        
+                                        <small class="d-block" m-0>
+                                            Option : Macro-économie et Gestion du Développement
+                                        </small>
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+                            <!-- Deug 2010 -->
+                            <div>
+                                <small class="badge rounded-pill text-bg-primary  opacity-75">2009</small> <small class="title__company__school">Université de Ouaga II, Burkina</small>
+
+                                <div class="ms-lg-4 border-2 ps-3 pt-2 pb-3 border-start border-bottom" style="border-bottom-left-radius: 0.5rem ;">
+                                    <h6 class="title__color">Deug </h6>
+                                    <div>
+                                        
+                                        <small class="d-block" m-0>
+                                            Option : Economie et Gestion
+                                        </small>
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+
+                            <!-- Baccalauréat  -->
+                            <div>
+                                <small class="badge rounded-pill text-bg-primary  opacity-75">2006</small> <small class="title__company__school">Didievi, Côte d’Ivoire</small>
+
+                                <div class="ms-lg-4 border-2 ps-3 pt-2 pb-3 border-start border-bottom" style="border-bottom-left-radius: 0.5rem ;">
+                                    <h6 class="title__color">Baccalauréat Série D  </h6>
+                                    <div>
+                                        
+                                        <small class="d-block" m-0>
+                                            Enseignement Général
+                                        </small>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                       </div>
+
+
+                       <!-- Connaissance Linguistiques -->
+                        <h3 class="title__color mb-3">Connaissances Linguistiques</h3>
+                        <div class="border rounded-2 p-3 mb-5">
+                            <div class="mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <small>Gournsi : Parler</small><small>Natif</small>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="98">98%</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-2 ">
+                                <div class="d-flex justify-content-between">
+                                    <small>Français : Parler et Ecrit</small><small>Avancé</small>
+                                </div>
+                                <div class="progress ">
+                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <small>Dioula : Parler </small><small>Courant</small>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <div class="d-flex justify-content-between">
+                                    <small>Anglais : Parler et Ecrit</small><small>Basic</small>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                </div>
+                            </div>
+ 
+                        </div>
+
+                       <!-- Formations -->
+                       <h3 class="title__color mb-3">Formations</h3>
+                        <div  class="mb-2">
+                            <!-- Swiper -->
+                            <div class="swiper mySwiperFormation pt-2 pb-5">
+                                <div class="swiper-wrapper">
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important; background-position:buttom;">
+                                        <h6 class="title__color"><i class="bi bi-1-circle"></i>  Blanchiment de capitaux</h6> 
+                                        <div class="py-2">
+                                            <small>Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i>  19 Mars 2016 </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-2-circle"></i>  Didital Banking</h6> 
+                                        <div class="py-2">
+                                            <small>Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 21 Mai 2016  </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-3-circle"></i>  Audit et qualité de service</h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 04 Juin 2016  </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-4-circle"></i>  Ouverture-Fermeture compte </h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 16 Juillet 2016   </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-5-circle"></i>  Compliance </h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 28 Janvier 2017   </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-6-circle"></i>  Les caractéristiques et technique de vente  </h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 09 Novembre 2017    </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-7-circle"></i>  Système Financier  </h6> 
+                                        <div class="py-2">
+                                            <small> Blanchiment de capitaux et connaissance du client / La question de la Fraude, Prévention et Contrôle  </small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 10 Février 2018    </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-8-circle"></i> Sécurité informatique </h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 	26 Mai 2018    </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-9-circle"></i>  Banque virtuelle  </h6> 
+                                        <div class="py-2">
+                                            <small> Banque virtuelle (Leo, Mobile Banking, …)</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 26 Octobre 2018   </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-1-circle"></i>0  cyber-sécurité / conformité / produit électronique </h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 13 Avril 2019   </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-1-circle"></i><i class="bi bi-1-circle"></i> Formation sur nos produits de bancassurance / uba protection</h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i>  10 Juin 2020    </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide ">
+                                    <div class="border rounded-2 px-3 pt-3 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+                                        <h6 class="title__color"><i class="bi bi-1-circle"></i><i class="bi bi-2-circle"></i>  Formation sur la détection et la déclaration des opérations suspectes </h6> 
+                                        <div class="py-2">
+                                            <small> Formation pratique et  acquisition d'experience</small>
+                                        </div>
+                                         <div  class="d-flex justify-content-end">
+                                            <span class="ms-auto"><i class="bi bi-clock-history"></i> 12 Avril 2021   </span>
+                                         </div>
+                                         
+                                    </div>
+                                </div>
+
+
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <!-- Refernce -->
+                       <h3 class="title__color mb-3" id="references">References</h3>
+                       <div>
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper pt-2 pb-5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="border rounded-2 px-3 pt-2 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+
+                                            <div class="d-flex">
+                                                <img  class="reference__img" src="images/avatar-men.png" alt="Reference Picture" >
+                                                <div class="ms-3 d-flex align-items-center">
+                                                    <div>
+                                                        <h6 class="title__color mb-1">M. Jean Luc Traoré </h6> 
+                                                        <small class="title__company__school blockquote-footer">Expert Comptable</small>
+                                                        <!-- <blockquote>+226 70.05.19.41</blockquote> -->
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div style="text-align: justify;">
+                                                
+                                                <div>
+                                                    <span class="fs-4 text-primary me-2"><i class="bi bi-quote"></i></span>
+                                                    <small>
+                                                        André fait preuve d'un professionnalisme exemplaire et est capable de relever des défis, il apprend vite et est un atout pour toute équipe.
+                                                    </small>
+                                                    <div class="d-flex justify-content-end mt-3">
+                                                        <span><i class="bi bi-telephone-inbound"></i> Tel: <span class="text-primary">+226-70-05-19-41</span></span>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>                              
+
+                                    <div class="swiper-slide">
+                                        <div class="border rounded-2 px-3 pt-2 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+
+                                            <div class="d-flex">
+                                                <img  class="reference__img" src="images/avatar-men.png" alt="Reference Picture" >
+                                                <div class="ms-3 d-flex align-items-center">
+                                                    <div>
+                                                        <h6 class="title__color mb-1">M. Ismaël P. OUEDRAOGO </h6> 
+                                                        <small class="title__company__school blockquote-footer">Customer Service Manager à UBA-BF</small>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div style="text-align: justify;">
+
+                                                <div>
+                                                    <span class="fs-4 text-primary me-2"><i class="bi bi-quote"></i></span>
+                                                    <small>
+                                                        André  est un excellent collègue de travail et résolveur de problèmes. Il est rapide à tendre la main et fait un bon joueur d'équipe.
+                                                    </small>
+                                                    <div class="d-flex justify-content-end mt-3">
+                                                        <span><i class="bi bi-telephone-inbound"></i> Tel: <span class="text-primary">+226-76-67-64-17</span></span>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="border rounded-2 px-3 pt-2 pb-2" style="border-top: 0.5rem solid #0d6efd!important;">
+
+                                            <div class="d-flex">
+                                                <img  class="reference__img" src="images/avatar-men.png" alt="Reference Picture" >
+                                                <div class="ms-3 d-flex align-items-center">
+                                                    <div>
+                                                        <h6 class="title__color mb-1">M. Souleymane SEYNOU </h6> 
+                                                        <small class="title__company__school blockquote-footer">Customer Service Manager à UBA-BF</small>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div style="text-align: justify;">
+                                                <div>
+                                                    <span class="fs-4 text-primary me-2"><i class="bi bi-quote"></i></span>
+                                                    <small>
+                                                        Excellent collaborateur.
+                                                    </small>
+                                                    <div class="d-flex justify-content-end mt-3">
+                                                        <span><i class="bi bi-telephone-inbound"></i> Tel: <span class="text-primary">+226-70-33-87-07</span></span>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                       </div>
+
+                       
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="section__3" class="pt-3 mb-5">
+                <h3 class="title__color">Mes Certifications</h3>
+                <div>
+                    <!-- Swiper -->
+                    <div class="swiper mySwiperCertificate pb-5 pt-3">
+                        <div class="swiper-wrapper  ">
+                       
+                            <div class="swiper-slide card p-4">
+                                <img src="images/certificate-conformite.jpg" alt="">
+                            </div>
+
+                            <div class="swiper-slide card p-4">
+                                <img src="images/certificate-ethics.jpg" alt="">
+                            </div>
+
+                            <div class="swiper-slide card p-4">
+                                <img src="images/certificate-improvement.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="mb-4">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="mb-3 title__color">Biographie</h3>
+                        <div class="mb-5">
+                            <div>
+                                <span class="text-primary"><i class="bi bi-calendar-week"></i></span>
+                                <span class="mx-2">:</span><span id="age"> 29 ans</span>
+                            </div>
+                            <div>
+                                <span class="text-primary"><i class="bi bi-envelope"></i> </span>
+                                <span class="mx-2">:</span><span> bamouni160@yahoo.fr</span>
+                            </div>
+                            <div>
+                                <span class="text-primary"><i class="bi bi-telephone-inbound"></i> </span>
+                                <span class="mx-2">:</span><span>+226 76 72 48 42</span>
+                            </div>
+                            <div>
+                                <span class="text-primary"><i class="bi bi-geo-alt"></i></span>
+                                <span class="mx-2">:</span><span>  Bobo Diolasso, BF</span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="mb-5">
+                            <h3 class="mb-3 title__color">Je peux aider!</h3>
+                            <div style="text-align: justify;">
+                                Je suis actuellement disponible pour un travail à temps plein ou indépendant.
+                                Si vous avez un projet que vous souhaitez démarrer, ou si vous avez besoin d'une personne polyvalente pour un poste lié à mon profil, n'hésitez pas à me contacter.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-3 title__color" >Contactez moi</h3>
+                        <div style="color: #666;">
+                            <form action="https://formspree.io/f/mqkjaowp" method="POST">
+
+                                <div class="row g-2 mb-3">
+                                    <div class="col-md">
+                                      <div class="form-floating">
+                                        <input type="text" class="form-control" id="Nom" placeholder="Nom" name="Nom" required>
+                                        <label for="Nom">Votre Nom <code>*</code></label>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md">
+                                        <div class="form-floating">
+                                          <input type="text" class="form-control" id="Prenom" placeholder="Prenom" name="Prenom" required>
+                                          <label for="Prenom">Votre Prenom <code>*</code></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-2 mb-3">
+                                    <div class="col-md">
+                                      <div class="form-floating">
+                                        <select class="form-select" id="motif" name="Motif" required>
+                                          <option selected>Entretien d'embauche</option>
+                                          <option value="1">Travailler sur un project</option>
+                                          <option value="2"> Consulter </option>
+                                          <option value="3">Autre</option>
+                                        </select>
+                                        <label for="motif">Selectionez le Motif</label>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md">
+                                        <div class="form-floating">
+                                          <input type="number" class="form-control" id="telephone" placeholder="Telephone" name="Telephone">
+                                          <label for="telephone">Votre Tel <code></code></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder="Votre email" name="Email" required>
+                                    <label for="email">Votre Address Mail <code>*</code></label>
+                                </div>
+
+
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="Message" required></textarea>
+                                    <label for="floatingTextarea2">Message <code>*</code></label>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-primary w-100 custom__btn" > Envoyer </button>
+                                </div>
+
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="pt-5">
+                <footer>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-center d-lg-flex justify-content-lg-start" >
+                                <span class="pe-3">
+                                    <a href="https://www.facebook.com/paul.baba.169" target="_blank"><i class="bi bi-facebook"></i></a>
+                                </span>
+                                
+                                <span class="px-3">
+                                    <a href="https://wa.me/22676724842?text=Bonjour%20Mr%20Bamouni,%20Je%20viens%20de%20visiter%20votre%20résumé!" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                                </span>
+                                <span class="px-3">
+                                    <a href="https://www.linkedin.com/in/andr%C3%A9-bamouni-080b0b238" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </span>
+                                <span class="ps-3">
+                                    <a href="skype:profile_name?userinfo"><i class="bi bi-skype"></i></a>
+                                </span>
+                    
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text-center d-lg-flex justify-content-lg-end">
+                                <small>
+                                  Copyright &copy; <span id="current__year"></span> by
+                                  <a
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/andr%C3%A9-bamouni-080b0b238"
+                                    >@Andre Bamouni</a
+                                  >. Tous droits réservés.
+                                </small>
+                              </div>
+                            
+                        </div>
+                    </div>
+                    
+                </footer>
+            </section>
+            
+        </div>
+    </div>
+
+    
+
+
+
+    <script src="static/script.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Boostrap popper and Tooltops -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+     -->
+    
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper For Certificates -->
+    <script>
+        let slides_preview = 3
+        let slides_per_group = 3
+        let space_between = 30
+        if (window.screen.width < 600){
+             slides_preview = 1
+             slides_per_group = 1
+            //  space_between = 30
+
+        }
+
+        var swiper = new Swiper(".mySwiperCertificate", {
+            
+            slidesPerView: slides_preview,
+            spaceBetween: space_between,
+            slidesPerGroup: slides_per_group,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Initialize Swiper Formations -->
+    <script>
+        var swiper = new Swiper(".mySwiperFormation", {
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+
+      <!-- Initialize Swiper Reference -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
+        });
+      </script>
+
+      
+    
+</body>
+</html>
